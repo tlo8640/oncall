@@ -93,7 +93,7 @@ Ldap Authentication
 
 Alternatively, you can configure oncall ldap authentication to use the `oncall.auth.modules.ldap_import` module.
 When a user try to connect to oncall, the module will check if the user is already present or not.
-If not, the user will be automatically added to the oncall user database, and conacts information will be synced.
+If not, the user will be automatically added to the oncall user database, and contacts information will be synced.
 If the user already exists, his contacts informations will be updated according to ldap informations.
 You can deactivate this feature by setting the `import_user` option to `False`.
 
